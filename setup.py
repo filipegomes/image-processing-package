@@ -9,12 +9,12 @@ with open("requirements.txt") as f:
 setup(
     name="package_name",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Filipe Gomes",
+    author_email="filipe.avgomes@protonmail.com",
+    description="",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/filipegomes/image-processing-package.git",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
